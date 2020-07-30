@@ -1,0 +1,493 @@
+.contenedor__index {
+  background-color: #7d8597;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.contenedor__index h1 {
+  margin-top: 13%;
+  font-size: 3rem;
+  text-align: left;
+  color: white;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.contenedor__index h2 {
+  margin-top: 2%;
+  font-size: 2rem;
+  text-align: left;
+  color: white;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.contenedor__index button {
+  margin-top: 2%;
+  margin-bottom: 15%;
+  color: white;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.contenedor__footer {
+  background: #343a40 !important;
+  padding: 1%;
+  color: white;
+}
+
+.contenedor__footer p {
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contenedor__footer img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+  height: 50%;
+}
+
+.sobremi-titulo {
+  background-color: #eef4ed;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.sobremi-titulo h1 {
+  height: 100%;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  font-size: 4rem;
+  text-align: center;
+  color: #003d5b;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.sobremi-centro {
+  padding: 3%;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.sobremi-centro img {
+  margin-left: 120;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.sobremi-centro h2 {
+  margin-top: 15%;
+  margin-right: 120;
+  color: #0b2545;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.cono-habi {
+  background: #7d8597;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.cono-habi img {
+  width: 100%;
+  height: 100%;
+  padding: 4%;
+}
+
+.cono-habi h3 {
+  padding: 2%;
+  margin-top: 2%;
+  margin-right: 5%;
+  margin-right: 5%;
+  font-size: 1.3rem;
+  text-align: left;
+  color: white;
+}
+
+.cono-habi p {
+  padding: 1%;
+  font-size: 0.9rem;
+  text-align: left;
+  color: white;
+}
+
+.profesional {
+  background: white;
+  padding: 3%;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.profesional p {
+  color: #33415c;
+  text-align: justify;
+  font-size: 1.5rem;
+}
+
+.contenedor__footer {
+  background: #343a40 !important;
+  padding: 1%;
+  color: white;
+}
+
+.contenedor__footer p {
+  font-size: 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.contenedor__footer img {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 10%;
+  height: 50%;
+}
+
+.contacto-titulo {
+  background-color: #eef4ed;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.contacto-titulo h1 {
+  height: 100%;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 1%;
+  font-size: 5rem;
+  text-align: center;
+  color: #33415c;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.container-contacto {
+  padding-left: 23%;
+  color: #0b2545;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.container-otrafuente {
+  background-color: #7d8597;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.container-otrafuente h3 {
+  margin-top: 2%;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: 3%;
+  font-size: 2.5rem;
+  text-align: center;
+  color: #0b2545;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.container-otrafuente a {
+  color: #06255f;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.form-group {
+  background-color: #7d8597;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.align-content-center {
+  -ms-flex-line-pack: center !important;
+  align-content: center !important;
+  background-color: #7d8597;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.btn-btn-primary {
+  margin-left: 5%;
+  margin-right: 5%;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.servicios-titulo {
+  background-color: #eef4ed;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.servicios-titulo h1 {
+  height: 100%;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  font-size: 4rem;
+  text-align: center;
+  color: #003d5b;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.servicios {
+  background-color: #7d8597;
+}
+
+.diseno-web {
+  margin-top: 30px;
+  padding-top: 23px;
+  margin-left: 97px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 3s;
+  transition: 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.diseno-web img {
+  -webkit-transition: 3s;
+  transition: 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.diseno-web img:hover {
+  -webkit-transform: scale(2);
+          transform: scale(2);
+}
+
+.info-web h2 {
+  margin-top: 20px;
+  padding-top: 23px;
+  margin-right: 10px;
+  text-align: left;
+  font-size: 2rem;
+  color: white;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.info-web p {
+  margin-top: 15px;
+  text-align: left;
+  font-size: 1rem;
+  margin-right: 10px;
+  color: white;
+  -webkit-transition: all 3s;
+  transition: all 3s;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.info-web:hover {
+  padding: 10px;
+  background-color: #003d5b;
+  color: #ffff;
+}
+
+.mis-trabajos {
+  background-color: #eef4ed;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.mis-trabajos h1 {
+  height: 100%;
+  width: 100%;
+  padding-top: 7%;
+  padding-bottom: 3%;
+  font-size: 4rem;
+  text-align: center;
+  color: #003d5b;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+      grid-template-areas: ". Img-1 Img-2 ." ". Texto Texto ." ". . . .";
+  height: 450px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.Img-1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: Img-1;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.Img-1 a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 50px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.Img-2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: Img-2;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.Img-2 a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 50px;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+.Texto {
+  -ms-grid-row: 2;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 2;
+  grid-area: Texto;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-name: aparecer;
+          animation-name: aparecer;
+}
+
+@-webkit-keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes aparecer {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */
