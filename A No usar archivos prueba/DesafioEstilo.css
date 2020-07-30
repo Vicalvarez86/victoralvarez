@@ -1,0 +1,626 @@
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+    
+html{
+    margin: 0;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+/*Sección Menú Header*/
+
+.menu {
+    background-image: linear-gradient(to bottom, #134074, #eef4ed);
+    position: relative;
+    width: auto;
+    height: 70px;
+
+}
+
+.contenedor ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.contenedor ul li{
+    display: inline-block;
+}
+
+.contenedor ul li a {
+    color: black;
+    display: block;
+    justify-content: space-around;
+    padding: 20px 50px;
+    margin-right: 15px;
+    margin-left: 50px;
+    text-decoration: none;
+    font-size: 1.5rem;
+
+}
+
+.contenedor ul li a:hover{
+    background-color: #59595ba3;
+}
+/*Fin menú Header*/
+
+/*Inicio Contenedor Central*/
+
+
+
+.contenedor-central {
+
+    display: flexbox;
+    color: #ffffff;
+    text-align: start;
+    padding: 10%;
+    margin: auto;
+    margin-left: 10px;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+.contenedor-central h2 {
+    display: flexbox;
+    color: #ffffff;
+    text-align: start;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-central input{
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    text-align: start;
+    font-size: 1rem;
+
+}
+/*Fin Contenedor Central*/
+
+/*Inicio Contenedor footer*/
+
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    color: #2471A3;
+}
+
+/*.contenedor-footer {
+    
+    background-image: linear-gradient(to bottom, white, #59595b99);
+    position: rela;
+    margin-left: auto;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    padding-top: 3px;
+    margin-top: 3px;
+    
+}*/
+.parrafo p {
+    font-size: 0.8rem;
+    color: black;
+}
+
+.redes a{
+
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
+/*Fin Contenedor footer*/
+/*Fin Seccion INDEX*/
+
+/*Inicio Sección Sobre Mi*/
+/*INicio sobremi*/
+
+.contenedor-sobremi h1{
+    width: 100%;
+    text-align: center;
+    color: #1e5d86;
+    font-size: 4.1rem;
+    margin-top: 100px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+
+.contenedor-sobremi img{
+    float: left;
+    display: flex;  
+    position: relative;
+    width: 400px;
+    margin-top: 5%;
+    margin-right: 100px;
+    margin-left: 150px;
+}
+
+
+.contenedor-sobremi h2{
+    line-height: 3rem;
+    padding-top: 180px;
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 150px;
+    color: #2471a3;
+    font-size: 2.5rem;
+    display: flex;
+    flex-flow: nowrap;
+    text-align: right; 
+    animation-duration: 3s;
+    animation-name: aparecer;  
+}
+
+.contenedor-sobremi input{
+
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    left: 340px;
+    position: relative;
+    color: black;
+    border-color: gray;
+    text-align: start;
+    font-size: 1rem;
+}
+
+/*Fin de sobremi*/
+
+/*Inicio habilidades*/
+#habilidades {
+    display: flex;
+    float: left;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.contenedor-habilidades{
+
+    background: url(img/imagen-servicios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: static;
+    background-color: rgba(0, 0, 0, 0.435);
+    display: flex;
+    align-content: center;
+    align-items: initial;
+    flex-wrap: wrap;
+    padding-bottom: 74px;
+    margin: 16px 10px 40px 8px
+    
+}
+
+.contenedor-habilidades h1{
+
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    font-size: 4.1rem;
+    margin: 50px 25px 50px 25px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.icono img{
+    display: flex;
+    width: 80px;
+    margin-top: 15px;
+    transform: rotate(45deg);
+}
+
+.contenedor-lenguaje {
+
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    margin-left: 89px;
+    padding-right: 10px;
+    margin-right: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-lenguaje h3{
+    display: flex;
+    position: relative;
+    color: #2471A3;
+    line-height: 28px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+.contenedor-lenguaje ul li{
+    color: #7b7979; 
+    font-size: 1rem;  
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+.contenedor-software {
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 16px;
+    margin-right: 16px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-software h3{
+    display: flex;
+    position: relative;
+    color: #2471A3;
+    line-height: 28px;
+    margin-top: 16px;
+    margin-left: 35px;
+    margin-right: 10px;
+    margin-bottom: 27px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-software ul li{
+    color: #7b7979; 
+    font-size: 1rem;  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-metodologia{
+
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 15px;
+    margin-left: 15px;
+    padding-right: 16px;
+    margin-right: 16px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-metodologia h3{
+    display: flex;
+    position: relative;
+    color: #2471A3;
+    line-height: 28px;
+    margin-left: 31px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-metodologia ul li{
+
+    color: #7b7979; 
+    font-size: 1rem; 
+    text-align: justify; 
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+.contenedor-idioma{
+
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 20px;
+    margin-left: 29px;
+    padding-right: 30px;
+    margin-right: 30px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-hobbies {
+
+    font-size: 1rem;
+    text-align: center;
+    background-color: lightgrey;
+    /* color: white; */
+    margin: 0px;
+    padding: 0px;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-right: 14px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-idioma h3{
+    display: flex;
+    position: relative;
+    color: #2471A3;
+    line-height: 50px;
+    margin-left: 29px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-idioma ul li{
+    color: #7b7979; 
+    font-size: 1rem;  
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-hobbies h3{
+    display: flex;
+    position: relative;
+    text-align: justify;
+    color: #2471A3;
+    line-height: 53px;
+    margin-left: 68px;
+    margin-right: 10px;
+    margin-bottom: 17px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.contenedor-hobbies ul li{
+    color: #7b7979; 
+    font-size: 1rem;  
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+/*Fin de Habilidades*/
+
+/*Inicio Profesional*/
+
+
+.profesional img{
+    float: right;
+    display: flex;  
+    position: relative;
+    width: 370px;
+    margin-top: 50PX;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-bottom: 36PX;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.profesional p{
+    color: #010c5d;
+    font-size: 22px;
+    text-align: left;
+    float: left;
+    letter-spacing: 1px;
+    margin-top: 70px;
+    height: 165px;
+    width: 381px;
+    margin-left: 200px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+
+/*Fin Profesional*/
+/*Fin Sobre mi*/
+
+/*Inicio Servicios*/
+
+.contenedor {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    animation-duration: 3s;
+    animation-name: aparecer;
+
+}
+
+.contenedor h1{
+    font-size: 4.1rem;
+    color: #2470a3;
+    margin-top: 100px;
+    text-align: center;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.contenedor-servicios {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-right: 48px;
+    margin-left: 210px;
+    margin-bottom: 50px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.diseno-web img {
+    /*transform: rotate(-10deg);*/
+    transition: all 3s;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+.diseno-web img:hover {
+    transform: rotate(360deg);
+    
+}
+
+.diseno-web  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    
+    }
+
+.info_web {
+
+    display: block;
+    align-items: flex-end;
+    text-align: right;
+    font-size: 1.2rem;
+    height: 161px;
+    width: 642px;
+    margin-top: 30px;
+    padding-top: 23px;
+    margin-left: 55px;
+    color: #7b7979;
+    transition: all 0.5s;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    }
+
+.info_web:hover {
+    
+    padding: 10px;
+    background-color: #08345363;
+    color: #ffff;
+    
+}
+/*Fin de Servicios*/
+
+/*Inicio de Portfolio*/
+
+
+/*Fin de Porfolio*/
+.mis-trabajos {
+    font-size: 3.1rem;
+    color: #2470a3;
+    margin-top: 75px;
+    text-align: center;
+    margin-bottom: 40px;
+    animation-duration: 3s;
+    animation-name: aparecer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: ". Img-1 Img-2 ." ". Texto Texto ." ". . . ."; 
+    height: 450px;
+}
+
+.Img-1 { grid-area: Img-1; }
+.Img-1 a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Img-2 { grid-area: Img-2; }
+
+.Img-2 a{
+
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.Texto { grid-area: Texto; }
+
+.Texto p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 50px; 
+
+}
+
+/*inicio contacto*/
+.contacto h1, h2{
+    color: #2471A3;
+    text-align: center;
+}
+.input{
+    /*width: 100px; height: 100px;*/
+    transition: all 2s;       
+ }
+ .input:focus {
+    width: 150px;
+    font-size: 24px;
+ }
+ .mensaje-input {
+        width: 100px; height: 100px;
+        transition: all 2s;       
+     }
+     
+.mensaje-input:focus {
+        height: 150%;
+        width: 50%;
+        font-size: 24px;
+ }
+
+

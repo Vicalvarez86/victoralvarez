@@ -1,0 +1,232 @@
+html{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    
+}
+
+/*sección header*/
+
+.menu {}
+
+.menu ul{
+    list-style: none;
+    margin: 40px;
+    padding: 50px;
+}
+
+.menu ul li{
+
+
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    background-color: #140083;
+    padding: 30px, 83px;
+    display: block;
+    font-size: 2rem;
+
+}
+
+.menu ul li a:hover{
+    background-color: #2471a3;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+.imagen-index{
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(45, 161, 215,.9)), to(rgba(42, 224, 229,.9))), url(Img/diseno-web-sin-plantillas.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+/*Contenedor Central*/
+
+.contenedor-titulo-centro {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 25vh 0;    
+    max-width: 1580px;
+    width: 100%;
+}
+.contenedor-titulo-centro{
+    text-align: center;
+}
+
+.contenedor-titulo h1{
+    font-size: 6.1rem;
+    color:aliceblue;
+    margin: 0;
+}
+.contenedor-titulo h2{
+    font-size: 4rem;
+    color: aliceblue;
+    text-align: center;
+}
+
+.logo a, #Inicio a, #sobremi a, #portfolio a, #servicios a, #contacto input[type="submit"] {
+    /*font-size: 14px;*/
+    color:rgba(64, 22, 170, 0.367);
+    background: #03437947;
+    padding: 14px 24px;
+    text-align: center;
+    width: 128px;
+    display: inline-block;
+
+}
+
+p.logo {
+    color: rgba(64, 22, 170, 0.367);
+    font-size: 18px;
+}
+
+a:active, a:focus {
+    color: rgba(64, 22, 170, 0.367);
+}
+
+nav ul li a {
+    color: rgba(64, 22, 170, 0.367);
+}
+
+/*Sección Sobre Mi*/
+.sobremi{}
+.contenedor h1{
+    color: #2471a3;
+    text-align: center;
+    font-size: 4,1 rem;
+}
+
+.contenedor  h2{
+    color: #2471a3;
+    font-size: 136%;
+    justify-content: right;
+    text-align: left;
+
+}
+
+.contenedor-lenguaje h3{
+    color: #2471A3;
+    font-size: 1,1 rem;
+}
+.contenedor-lenguaje ul li{
+    color: #7b7979;   
+
+
+}
+.contenedor-software h3{
+    color: #2471A3;
+}
+.contenedor-software ul li{
+    color: #7b7979;
+
+}
+.contenedor-metodologia h3{
+    color: #2471A3;
+}
+.contenedor-metodologia ul li{
+    color: #7b7979;
+
+}
+.contenedor-idioma h3{
+    color: #2471A3;
+}
+.contenedor-idioma ul li{
+    color: #7b7979;
+}
+.contenedor-hobbies h3{
+    color: #2471A3;
+}
+.contenedor-hobbies ul li{
+    color: #7b7979;
+}
+.contenedor-profesional h5{
+    color: #010c5d;
+    font-size: large;
+    text-align: right;
+    letter-spacing: 1px;
+}
+/*Final Sección Sobre Mi*/
+/* sección servicios*/
+
+.contenedor h1{
+    font-size: 4.1rem;
+    text-align: center;
+    color: #2471A3;
+
+}
+.diseno-web h2 {
+    color: teal;
+}
+.diseno-web p{
+    color: #140083;
+}
+
+.responsive h2{
+    color: teal;
+}
+.responsive p{
+    color: #140083;
+}
+
+.autoadministrable h2{
+    color: teal;
+}
+.autoadministrable p{
+    color: #140083;
+}
+
+.seo h2{
+    color: teal;
+}
+.seo p{
+    color: #140083;
+}
+
+.mantenimiento h2{
+    color: teal;
+}
+.mantenimiento p{
+    color: #140083;
+}
+
+.hosting h2{
+    color: teal;
+}
+.hosting p{
+    color: #140083;
+}
+/*fin sección servicios*/
+
+/*inicio contacto*/
+.contacto h1, h2{
+    color: #2471A3;
+    text-align: center;
+}
+
+.contacto 
+
+/*sección footer*/
+/*.footer {
+    background-color: #5499C7;
+}
+AVERIGUAR COMO SE LE COLOCA COLOR A LA SECCIÓN DE FOOTER, PARA DIFERENCIAR CON EL RESTO DEL CUERPO*/
+
+.contenedor #contenedor-footer p{
+    color: #01243b;
+}
+.pie p {
+
+}
