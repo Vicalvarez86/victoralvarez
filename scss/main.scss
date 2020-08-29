@@ -1,22 +1,59 @@
-@import "_variables.scss"
+@import "_variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
 
 
-//inicio header e index
-    .contenedor__index {
+* {
+    Padding: 0;
+    Margin: 0;
+    Box-sizing: border-box;
 
-        //background: url(img/agregaruntítulo.jpg);
-        background-color: $indexcolorfondo;
-        //background-position: center;
-        //background-repeat: no-repeat;
-        //background-size: cover;
-        //width: 100%;
+    }
 
-            h1{
+html{
 
-                margin-top: 13%;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.contenedor__menu{
+
+        ul li a {
+
+            color:white;
+            font-size: $tamanomenu;
+            align-items: center;
+
+            
+
+        }
+
+}
+.contenedor__index { 
+
+        
+        background: url(../img/Fondos-05.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        width: 100%;
+        
+
+    }
+            
+    .row{
+
+        display: block;
+        justify-content: space-between;
+        
+    
+            h1 {
+
+                margin-top: 16%;
+                max-width: 100%;
                 font-size: $indextamanoletra;
                 text-align: $textalignizquierda;
-                color: $paraindex;
+                color: $sobremicolortitulo;
                 transition: all 3s;
                 animation-duration: 3s;
                 animation-name: aparecer;
@@ -24,18 +61,21 @@
 
             h2 {
 
+                max-width: 100%;
                 margin-top: 2%;
-                font-size: 2rem;
+                font-size: 2.5em;
                 text-align: $textalignizquierda;
-                color: $paraindex;
+                color: $sobremicolortitulo;
                 transition: all 3s;
                 animation-duration: 3s;
                 animation-name: aparecer;
 
             }
 
-            button {
 
+
+            button {
+                max-width: 100%;
                 margin-top: 2%;
                 margin-bottom: 15%;
                 color: $paraindex;
@@ -46,52 +86,85 @@
     }
 
     //Inicio footer
+
     .contenedor__footer {
 
-                background: #343a40!important;
-                padding: 1%;
-                color: $paraindex;
+        .container {
 
+            display: block;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            max-width: 100%;
+        }
+
+                background: #343a40 !important;
+                background-attachment: fixed;
+                padding: 3%;
+                color: white;
+                height: 89px;
+                max-width: 100%;
+                display: block;
+                
 
                 p{
 
-                    font-size: 1rem;
-                    justify-content: center;
+                    width: 402px;
+                    height: 31px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    border-left-width: 10px;
+                    position: relative;
+                    padding-left: 0px;
+                    margin-top: -15px;
+                    font-size: 0.9rem;
+                    max-width: 100%;
                     text-align: center;
+
                 }
 
-                img{
+                img {
 
-                align-items: center;
-                width: 10%;
-                height: 50%;
-                
-                }
+                    max-width: 100%;
+                    align-items: center;
+                    position: relative;
+                    width: 10%;
+                    height: 70%;
+                    margin-top: -2px;
+                    margin-left: 20%;
+                    
+                    }
 
     }
+
+
+
 
     //Inicio de Sobre mi
 
     .sobremi-titulo {
 
-        background-color: $sobremifondo;
+        background-color: #eef4ed;
         transition: all 3s;
         animation-duration: 3s;
         animation-name: aparecer;
+        margin-top: 6px;
 
-            h1 {
+        h1{
 
-                height: 100%;
-                width: 100%;
-                padding-top: 7%;
-                padding-bottom: 3%;
-                font-size: $sobremicolortitulo;
-                text-align: $textaligncentro;
-                color: $sobremicolortitulo;
-                animation-duration: 3s;
-                animation-name: aparecer;
-                
-            }
+            height: 100%;
+            width: 100%;
+            margin-top: 6px;
+            padding-top: 7%;
+            padding-bottom: 3%;
+            font-size: 5rem;
+            text-align: center;
+            color: #33415c;
+            transition: all 3s;
+            animation-duration: 3s;
+            animation-name: aparecer;
+        
+        }
     }
 
     .sobremi-centro {
@@ -101,9 +174,11 @@
             margin-right: 10px;
             animation-duration: 3s;
             animation-name: aparecer;
+
             img {
 
-                margin-left: 120;
+               // margin-left: 120px;
+               align-content: center;;
                 animation-duration: 3s;
                 animation-name: aparecer;
             }
@@ -111,7 +186,7 @@
             h2 {
 
                 margin-top: 15%;
-                margin-right: 120;
+                //margin-right: 120px;
                 color: $sobremicolorletras; 
                 animation-duration: 3s;
                 animation-name: aparecer;
@@ -120,25 +195,32 @@
 
     .cono-habi {
 
-            background: $sobremicolorfondocono;
+            background: #69aad8;
+            width: 100%;
             animation-duration: 3s;
             animation-name: aparecer;
+            margin-top: 15px;
+            margin-bottom: 15px;
+
 
             img {
 
-                width: 100%;
-                height: 100%;
-                padding: 4%;
+                width: 269px;
+                height: 160px;
+                padding: 2%;
+                margin-top: 15px;
+                margin-bottom: 15px;
+                margin-left: 50px;
             }
 
             h3 {
-                padding: 2%;
-                margin-top: 2%;
+                margin-top: 40px;
+                margin-bottom: 21px;
                 margin-right: 5%;
                 margin-right: 5%;
-                font-size: $sobremitamanocono;
-                text-align: $textalignizquierda;
-                color: $indexcolorletra;
+                font-size: 0.9rem;
+                text-align: letf;
+                color: white;
             
             }
 
@@ -168,30 +250,7 @@
 
     }
 
-    .contenedor__footer {
-
-        background: #343a40!important;
-        padding: 1%;
-        color: white;
-
-
-        p{
-
-            font-size: 1rem;
-            justify-content: center;
-            text-align: center;
-        }
-
-        img{
-
-        align-items: center;
-        width: 10%;
-        height: 50%;
-        
-        }
-
-    }
-
+   
 //Inicio Contactame
 
     .contacto-titulo {
@@ -200,13 +259,15 @@
         transition: all 3s;
         animation-duration: 3s;
         animation-name: aparecer;
+        margin-top: 6px;
 
         h1{
 
             height: 100%;
             width: 100%;
+            margin-top: 6px;
             padding-top: 7%;
-            padding-bottom: 1%;
+            padding-bottom: 3%;
             font-size: 5rem;
             text-align: center;
             color: #33415c;
@@ -215,13 +276,12 @@
             animation-name: aparecer;
         
         }
-        
-}
+    }
 
 .container-contacto {
 
     padding-left: 23%;
-    color: #0b2545;
+    color: #69aad8;
     transition: all 3s;
     animation-duration: 3s;
     animation-name: aparecer;
@@ -229,7 +289,7 @@
 
 .container-otrafuente {
 
-    background-color: #7d8597;
+    background-color: #69aad8;
     transition: all 3s;
     animation-duration: 3s;
     animation-name: aparecer;
@@ -237,7 +297,7 @@
 
         h3 {
 
-            margin-top: 2%;
+            margin-top: 4%;
             margin-right: 15%;
             margin-left: 15%;
             margin-bottom: 3%;
@@ -260,7 +320,7 @@
 
 .form-group {
 
-    background-color: #7d8597;
+    background-color: #69aad8;
     transition: all 3s;
     animation-duration: 3s;
     animation-name: aparecer;
@@ -268,7 +328,7 @@
 .align-content-center {
     -ms-flex-line-pack: center!important;
     align-content: center!important;
-    background-color: #7d8597;
+    background-color: #69aad8;
     transition: all 3s;
     animation-duration: 3s;
     animation-name: aparecer;
@@ -288,88 +348,124 @@
 .servicios-titulo {
 
     background-color: #eef4ed;
-    animation-duration: 2s;
+    transition: all 3s;
+    animation-duration: 3s;
     animation-name: aparecer;
+    margin-top: 6px;
 
-    h1 {
+    h1{
 
         height: 100%;
         width: 100%;
+        margin-top: 6px;
         padding-top: 7%;
         padding-bottom: 3%;
-        font-size: 4rem;
+        font-size: 5rem;
         text-align: center;
-        color: #003d5b;
-        animation-duration: 3s;
-        animation-name: aparecer;
-    }
-}
-
-.servicios {
-
-    background-color: #7d8597;
-}
-.diseno-web{ 
-
-    margin-top: 30px;
-    padding-top: 23px;
-    margin-left: 97px;
-    align-items: center;
-    transition: 3s;
-    animation-duration: 3s;
-    animation-name: aparecer;
-
-    img {
-
-        transition: 3s;
-        animation-duration: 3s;
-        animation-name: aparecer;
-
-    }
-
-}
-
-
-.diseno-web img:hover {
-        transform: scale(2);
-
-    }  
-
-
-.info-web {
-
-    h2 {
-
-        margin-top: 20px;
-        padding-top: 23px;
-        margin-right: 10px;
-        text-align: left;
-        font-size: 2rem;
-        color: white;
+        color: #33415c;
         transition: all 3s;
         animation-duration: 3s;
         animation-name: aparecer;
-    }
-
-    p {
-        margin-top: 15px;
-        text-align: left;
-        font-size: 1rem;
-        margin-right: 10px;
-        color: white;
-        transition: all 3s;
-        animation-duration: 3s;
-        animation-name: aparecer;
-    }
-
-}    
-.info-web:hover {
     
-    padding: 10px;
-    background-color: #003d5b;
-    color: #ffff;
-
+    }
 }
+
+    .servicios{
+
+        .row{
+
+            img {
+                margin-top: 30px;
+                padding-top: 20px;
+                margin-left: 60px;
+                margin-bottom: 15px;
+                margin-right: 10px;
+                width: 405px;
+                height: 204px;
+                transition: all 3s;
+                animation-duration: 3s;
+                animation-name: aparecer;
+            }
+
+            h2 {
+                text-align: center;
+                max-width: 100%;
+                margin-top: 4%;
+                margin-bottom: 4%;
+                margin-right: 3%;
+                font-size: 2.5 rem;
+                text-align: letf;
+                color: #003d5b;
+                transition: all 3s;
+                animation-duration: 3s;
+                animation-name: aparecer;
+            }
+
+            p {
+                text-align: justify;
+                font-size: 1rem;
+                color: #33415c;
+                margin-top: 20px;
+                margin-bottom: 20px;
+                margin-left: 10px;
+                margin-right: 10px;
+                transition: all 3s;
+                animation-duration: 3s;
+                animation-name: aparecer;
+
+            }
+        }
+    }
+
+    .servicios-contacto {
+
+        background: url(../img/imagen-laptop-index.jpg);
+        background-position: center;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 40vh;
+        margin-top: 50px;
+        margin-bottom: 70px;
+
+        h3{
+
+                color: #003d5b;
+                font-size: 3.5rem;
+                margin-top: 100px;
+                padding-top: 80px;
+                width: 100%;
+                text-align: center;
+            }
+
+        .btn-secondary {
+
+            background: #003d5b;
+            max-width: 100%;
+            margin-top: -11px;
+            margin-bottom: 11px;
+            margin-left: 45%;
+            color: $paraindex;
+            transition: all 3s;
+            animation-duration: 3s;
+            animation-name: aparecer;
+        }
+
+        a {
+
+            color: #eef4ed;
+            font-size: 1.2rem;
+            margin-left: 4px;
+            margin-right: 4px;
+            margin-bottom: 8px;
+            
+        }
+
+    }
+
+    
+
 
 //Portfolio
 
@@ -393,44 +489,46 @@
     }
 }
 
-.grid-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 1px 1px;
-    grid-template-areas: ". Img-1 Img-2 ." ". Texto Texto ." ". . . ."; 
-    height: 450px;
-    animation-duration: 2s;
-    animation-name: aparecer;
+.contenedor-portfolio {
+
+        height: 450px;
+        animation-duration: 2s;
+        animation-name: aparecer;
+
+        .imagen-portfolio {
+
+            width: 567px;
+            height: 309px;
+            margin-top: 30px;
+            transition: 3s;
+            animation-duration: 3s;
+            animation-name: aparecer;
+
+        }
+
+        .texto-portfolio {
+
+            color: $sobremicolorletras;
+            font-size: $sobremitamanoconoh3;
+            text-align: justify;
+            margin-top: 30px;
+            padding-top: 23px;
+            margin-left: 97px;
+            align-items: center;
+            transition: 3s;
+            animation-duration: 3s;
+            animation-name: aparecer;
+
+        }
+
+
 }
 
-.Img-1 { grid-area: Img-1;         animation-duration: 2s;
-    animation-name: aparecer;}
-.Img-1 a{
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 50px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-}
 
-.Img-2 { grid-area: Img-2;         animation-duration: 2s;
-    animation-name: aparecer;}
 
-.Img-2 a{
 
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    margin-bottom: 50px;
-    animation-duration: 2s;
-    animation-name: aparecer;
-}
-.Texto { grid-area: Texto;         animation-duration: 2s;
-    animation-name: aparecer;}
-
-@keyframes aparecer {
+    
+    @keyframes aparecer {
     from {
         opacity: 0;
     }
@@ -438,5 +536,7 @@
         opacity: 1;
     }
 }
+
+
 
 
