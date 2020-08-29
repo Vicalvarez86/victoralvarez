@@ -16,52 +16,55 @@
 <body>
 
 <!--Inicio de Logo y Menú Cabecera -->
-<header>
-
+<header class="contenedor__menu">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark indigo fixed-top">
-        <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
-          <ul class="nav justify-content-end">
-            <li class="nav-item active">
-                <a class="nav-link" href="pruebaindex.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sobremi.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="navbar-brand" href="index.html"><img src="img/Mi-logo.png" alt="logo-ViCal" style="width: 57px; height: 55px;"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+              <ul class="nav justify-content-end">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link"  href="contactame.html">Contactame</a>
+                    <a class="nav-link" href="sobremi.html">Sobre mí</a>
                 </li>
-          </ul>
-        </div>
-      </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="contactame.html">Contactame</a>
+                    </li>
+              </ul>
+            </div>
+          </nav>
 
 </header>
 <!--Fin de logo y menu cabecera-->
 <!--Inicio seccion contenido sobre mi-->
 <!--Inicio de introducción sobre mi (Foto a la izquierda, texto a la derecha -->
 <div class="sobremi-titulo">
-    <div class="container">
-        <h1><em> Sobre Mí</em></h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 col-lg-12">
+                <h1><em> Sobre Mí</em></h1>
+            </div>
+        </div>
     </div>
 </div>
 <div class="sobremi-centro">
-    <div class="container">
-        <div class="row justify-content-md-center">
-            <div class="col-md-12 col-lg-6">
-                <img src="img/WhatsApp Image 2020-03-12 at 16.16.00.jpeg" style="width: 400px;">
+    <div class="container-fluid">
+        <div class="row justify-content-xs-sm-md-lg-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <img src="img/miimagen.jpeg" style="width: 400px;">
             </div>
-            <div class= "col-md-12 col-lg-6">
-                <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta at, asperiores ipsa quasi nobis sapiente, temporibus sed aspernatur esse et ratione alias eligendi nisi dolores adipisci voluptatem, minus quam distinctio? </h2> <br><br>
-                <button type="button" class="btn btn-secondary"><a href="#" style="color: white;"> Descargar mi CV </a></button>
+            <div class= "col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                <h2>Emprendo en nuevos proyectos y desafíos. Conociendo cada vez mejor la tecnología y adaptandome a la nueva era digital.  </h2> <br><br>
+                <button type="button" class="btn btn-secondary"><a href="C:\Users\User\Documents\Proyecto Coder\pdf\Victor Alfonso Alvarez CV.pdf" style="color: white;"> Descargar mi CV </a></button>
             </div>
         </div>
     </div>
@@ -69,56 +72,52 @@
 
 <!--Final de introducción sobre mi-->
 
-<!--Inicio de habilidades sobre mi (Esta sección se puede como es impar, los contenedores se pueden colocar uno al lado del otro y se pasan por carrusel. Otra opción es, ver como queda un contenedor de 3 y otro debajo con un contenedor de 2)-->
-<!--<div class="habilidades">
-    <div class="container">
-        <h1>Conocimientos y Habilidades</h1>
-    </div>
-</div>-->
+<!--Inicio de habilidades -->
 
 <div class="cono-habi">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="row">
                     <div class="hidden-xs col-sm-4 col-md-6 col-lg-6">
-                        <img src="img/imagen-servicios.jpg" style="height: 100%;">
+                        <img src="img/imagen-servicios.jpg">
                     </div>
-                    <div class= "col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class= "col-xs-12- col-sm-12 col-md-6 col-lg-6">
                         <h3>Lenguaje de Programación</h3><hr style="color: #13315c;">
-                        <p>HTML, CSS, PHP, Bootstrap, JavaScritp, SQL, WordPress</p><br>
+                        <p>HTML, CSS, PHP, Bootstrap, JavaScript, SQL, Sass
+                        </p><br>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="row">
                     <div class= "hidden-xs col-sm-4 col-md-6 col-lg-6">
                         <img src="img/Instalacion-de-Software-1.png" >
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="col-xs-12- col-sm-12 col-md-6 col-lg-6">
                         <h3>Software</h3><hr style="color: #13315c;">
-                        <p>Microsoft Office 365, HeidiBD, Trello,Sublime Text, Brackets, Visual Studio Code, TFS, </p><br>
+                        <p>Microsoft Office 365, HeidiBD, Trello,Sublime Text, Brackets, Visual Studio Code, TFS, WordPress.  </p><br>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="row">
                     <div class= "hidden-xs col-sm-4 col-md-6 col-lg-6">
                         <img src="img/idiomas.jpg" >
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="col-xs-12- col-sm-12 col-md-6 col-lg-6">
                         <h3>Idiomas</h3><hr style="color: #13315c;">
                         <p>Español: Nativo</p>
                         <p>Inglés: A1</p><br>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+            <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div class="row">
                     <div class= "hidden-xs col-sm-4 col-md-6 col-lg-6">
-                        <img src="img/imagen index.png" >
+                        <img src="img/hobbies.jpg">
                     </div>
-                    <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6">
+                    <div class="col-xs-12- col-sm-12 col-md-6 col-lg-6">
                         <h3>Hobbies</h3><hr style="color: #13315c;">
                         <p>Series y películas, escuchar música, investigar temas varios, juntarme con amigos, conocer lugares nuevos</p><br>
                     </div>
@@ -127,48 +126,7 @@
         </div>
     </div>
 </div>
-<!--<div class="cono-habi">
-    <div class="container">
-        <div class="row">
-            <div class= "col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                <div class="row">
-                    <div class="hidden-xs col-sm-3 col-md-6 col-lg-6">
-                        <br><br><img src="img/imagen-servicios.jpg" style="height: 100%;">
-                    </div>
-                    <div class= "col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                        <h3>Lenguaje de Programación</h3><hr>
-                            <p>HTML, CSS, PHP, Bootstrap, JavaScritp, SQL, WordPress</p>
-                    </div>
 
-
-                    <div class= "hidden-xs col-sm-3 col-md-6 col-lg-6">
-                        <br><br><img src="img/Instalacion-de-Software-1.png" >
-                    </div>
-                    <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                        <br><br><h3>Software</h3><hr>
-                            <p>Microsoft Office 365, HeidiBD, Trello,Sublime Text, Brackets, Visual Studio Code, TFS, </p>
-                    </div>
-                
-                <div class="hidden-xs col-sm-3 col-md-6 col-lg-6">
-                    <br><br><img src="img/idiomas.jpg">
-                </div>
-                <div class= "col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                    <br><br><h3>Idiomas</h3><hr>
-                        <p>Español: Nativo</p>
-                        <p>Inglés: A1</p>
-                </div>
-                
-                <div class= "hidden-xs col-sm-3 col-md-6 col-lg-6">
-                  <img src="img/imagen index.png"><hr>
-                </div>
-                <div class="col-xs-12 col-sm-9 col-md-6 col-lg-6">
-                    <br><br><h3>Hobbies</h3><hr>
-                        <p>Ver Series y películas, escuchar música, investigar temas varios, relaciones interpersonales, juntarme con amigos, conocer lugares nuevos</p>
-                </div>
-            </div>    
-        </div>
-    </div>
-</div>-->
 
 <!--Final de habilidades sobre mi-->
 
@@ -177,9 +135,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12 justify-center">
-                <p>Recibido en el 2011 como Técnico Universitario en Comercio Exterior. <br>
-                10 años trabajando en una entidad financiera venezolana, mis primeros años en el área de Operaciones Internacionales, y posteriormente, en el área de Banca Electrónica, en los Canales Digitales (Home Banking y Movil Banking) como Analista Funcional.  <br><br>       
-                Siempre curioso de la tecnología y del ámbito, es por ello que me capacité en <a href="#" style="color: #8da9c4;">Programación Web Full Stack,</a> <a href="#" style="color: #8da9c4;"> Diseño Web,</a> <a href="#" style="color: #8da9c4;"> UX Writen</a> para estar a medida de la vanguardia tecnológica y digital.</p>
+                <p>Soy de <img src="img/mapvenezuela.png" alt="Venezuela" style="width:65px; height:55px;"> tengo 2 años viviendo en <img src="img/mapargentina.png" alt="Venezuela" style="width:60px; height:50px;"> <br>
+                Trabajé en Santander Venezuela por casi 10 años,  en el área a Productos y Canales, aportando ideas para la innovación de productos y servicios, atención a clientes internos y externos, participación en proyectos. En la actualidad, estoy trabajando con la <a href="https://www.tecnosoftware.com/">Tecnosofware</a> prestando servicio para el <a href="www.bancociudad.com.ar">Banco Ciudad.</a><br> <br>
+                Considero que el aprender habilidades nuevas me permite conocer otras especialidades, es por ello que por buen curioso de la tecnología me he capacitado en este segmento para estar a la par del crecimiento e innovación digital y tecnológico.  emprendiendo como diseñador y desarrollador Web, de la mano de Adxioma Marketing Omnicanal <a href="#"> Programación Web Full Stack,</a> <a href="#"> Diseño Web,</a> <a href="pdf/Certificado UX Writing.pdf"> UX Writen, </a><a href="pdf/Certificado Scrum Foundation.pdf">Scrum Foundation.</a></p>
+
+                <p style="text-align: center;"><em> #AprendizajeConstante</em> </p>
                 
             </div>
         </div>
@@ -191,16 +151,18 @@
 <footer class="contenedor__footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-4 justify-content-center">
-                <p>Copyright © 2020  Victor Alvarez <br> Diseñador Web.  </p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center">
+               <p>Copyright © 2020 <br> Victor Alvarez, Diseñador Web.</p>
             </div>
-            <div class="col-md-12 col-lg-4 justify-content-center" >
-                <p>CoderHouse</p>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center" >
+             <p>Ciudad Autónoma de Buenos Aires <br> Argentina </p>
             </div>
-            <div class="col-md-12 col-lg-4 justify-content-center">
-                <a href="linkedin.com"><img src="img/linkedin.png" alt="imgen linkedin"></a>
-                <a href="whatsapp"><img src="img/whatsapp-icon.png" alt="imagen whatsapp"></a>
-                <a href="mail"><img src="img/mail-icon.png" alt="imgen correo"> </a>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 justify-content-center">
+               <a href="https://www.linkedin.com/in/victor-alvarez-marcano-856741148"><img src="img/linkedin.png" alt="imgen linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5491132831985"><img src="img/whatsapp-icon.png" alt="imagen whatsapp"></a>
+                <a href="mailto:vicalvamarcano@gmail.com"><img src="img/mail-icon.png" alt="imgen correo"> </a>
+                <br>
+                <br>
             </div>
         </div>
     </div>

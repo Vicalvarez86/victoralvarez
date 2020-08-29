@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <meta name="description" content="Diseñador creador de páginas web">
     <meta name="description" content="html, web, diseño web, css, portfolio, responsive, autoadministrable, hosting, mantenimiento web, programación, idiomas, trello, tecnología, bootstrap, seo, ">
 
@@ -17,38 +18,37 @@
 <body>
 
 <!--Inicio de Logo y Menú Cabecera -->
-<header>
-
+<header class="contenedor__menu">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark indigo fixed-top">
-        <a class="navbar-brand" href="index.html">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
-          <ul class="nav justify-content-end">
-            <li class="nav-item active">
-                <a class="nav-link" href="pruebaindex.html">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="sobremi.html">Sobre mí</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="navbar-brand" href="index.html"><img src="img/Mi-logo.png" alt="logo-ViCal" style="width: 57px; height: 55px;"> </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse nav justify-content-end" id="navbarNav">
+              <ul class="nav justify-content-end">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link"  href="contactame.html">Contactame</a>
+                    <a class="nav-link" href="sobremi.html">Sobre mí</a>
                 </li>
-          </ul>
-        </div>
-      </nav>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"  href="contactame.html">Contactame</a>
+                    </li>
+              </ul>
+            </div>
+          </nav>
 
 </header>
 <!--Fin de logo y menu cabecera-->
-
-<!--Inicio de Servicios-->
+<body>
+    
 <div class="servicios-titulo">
     <div class="container">
         <h1><em>Servicios</em></h1>
@@ -58,96 +58,70 @@
 <div class="servicios">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/diseno-web.jpg" class="diseno-web" style="width: 320px; height: 80%;" >
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/diseno-web.jpg">
+                <br><h2> Diseño Web </h2>
+                <p>¿A quién queremos llegar con la página?, ¿Qué buscaran los usuarios?, ¿Qué imagen queremos proyectar? con la respuesta de estas preguntas, comenzaré a planificar y realizar un diseño acorde a sus necesidades. </p>
             </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"><br>
-                    <h2> Diseño Web </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/responsive-design1.jpg"  class="diseno-web" style="width: 320px; height: 80%;">
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/responsive-design1.jpg" alt="Responsive">
+                <br><h2> Responsive </h2>
+                <p>Funcionará no sólo en monitores de pc, sino también en dispositivos móviles como celulares y tablets. Esto ayudará a aumentar considerablemente la audiencia de la misma y por ende sus resultados.</p>
             </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"><br>
-                    <h2> Responsive </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/imagen-servicios.jpg" class="diseno-web" alt="" style="width: 320px; height: 80%;">
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/imagen-servicios.jpg" alt="Autoadministrable">
+                <br><h2> Autoadministrable </h2>
+                <p>El desarrollo personalizado de páginas web autoadministrables, permite que usted mismo pueda actualizar la información de su sitio de forma muy sencilla y absolutamente adaptada.</p>
+            </p>
             </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"><br>
-                    <h2> Autoadministrable </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/seo.png" class="diseno-web" alt="" style="width: 320px; height: 80%;">
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/seo.png" alt="SEO">
+                <h2> SEO</h2>
+                <p>SEO es el posicionamiento de su página en la web. Es la herramienta fundamental para consolidar la imagen de la  marca en internet y atraer visitas y posibles clientes.</p>
             </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"><br>
-                    <h2> Posicionamiento SEO </h2> 
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/mantenimientow.png" class="diseno-web" alt=""  style="width: 320px; height: 80%;">
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/hosting.png" alt="Hosting">
+                <h2> Hosting <br> (Próximamente)</h2>
+                <p>Para que su sitio web pueda ser visto, necesitas un hosting o alojamiento web de calidad, por ello próximamente podré incluirlo dentro de los servicios ofrecidos, y adaptarlo a los requerimientos de su sitio.</p>
             </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"> <br>
-                    <h2> Mantenimiento </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
-            </div>
-        </div>
 
-        <div class="row">
-            <div class="col-md-6 col-lg-6">
-                <img src="img/hosting.png" class="diseno-web" alt="" style="width: 320px; height: 80%;">
-            </div>
-            <div class="col-md-6 col-lg-6">
-                <div class="info-web"> <br>
-                    <h2> Hosting </h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur quasi modi corrupti, debitis architecto aut! Esse atque tempora modi, alias quos qui perferendis laborum earum nemo pariatur vel fugiat consectetur?</p>
-                </div>
+            <div class="col-xs-6 col.sm-6 col-md-6">
+                <img src="img/dominio.png" alt="Dominio">
+                <h2> Dominio <br> (Próximamente)</h2>
+                <p>Necesitaras identidicar su página ya sea .com, .net, o algún otro, es el nombre único y exclusivo que se le da a un sitio web en Internet para que cualquiera pueda visitarlo. </p>
             </div>
         </div>
     </div>
 </div>
+<!--Final de Servicios-->
+<!--Contacto servicios-->
 
-<!--Fin de Servicios-->
+<div class="servicios-contacto">
+    <div class="container">
+        <h3>Solicita más información </h3> <br>
+        <button type="button" class="btn btn-secondary"><a href="contactame.html"> Contacto </a></button>
+    </div>
+</div>
 
 
 <!--Inicio footer-->
 <footer class="contenedor__footer">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 col-lg-4 justify-content-center">
-                <p>Copyright © 2020  Victor Alvarez <br> Diseñador Web.  </p>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 justify-content-center">
+               <p>Copyright © 2020 <br> Victor Alvarez, Diseñador Web.</p>
             </div>
-            <div class="col-md-12 col-lg-4 justify-content-center" >
-                <p>CoderHouse</p>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 justify-content-center" >
+            <p>Ciudad Autónoma de Buenos Aires <br> Argentina </p>
             </div>
-            <div class="col-md-12 col-lg-4 justify-content-center">
-                <a href="linkedin.com"><img src="img/linkedin.png" alt="imgen linkedin"></a>
-                <a href="whatsapp"><img src="img/whatsapp-icon.png" alt="imagen whatsapp"></a>
-                <a href="mail"><img src="img/mail-icon.png" alt="imgen correo"> </a>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 justify-content-center">
+               <a href="https://www.linkedin.com/in/victor-alvarez-marcano-856741148"><img src="img/linkedin.png" alt="imgen linkedin"></a>
+                <a href="https://api.whatsapp.com/send?phone=5491132831985"><img src="img/whatsapp-icon.png" alt="imagen whatsapp"></a>
+                <a href="mailto:vicalvamarcano@gmail.com"><img src="img/mail-icon.png" alt="imgen correo"> </a>
             </div>
         </div>
     </div>
